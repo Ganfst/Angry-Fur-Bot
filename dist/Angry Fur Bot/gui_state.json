@@ -1,0 +1,9 @@
+{
+  "_app": {
+    "cooldown": 30.0,
+    "interval": 0.5,
+    "notify_recovery": true,
+    "close_to_tray": false,
+    "autostart": false
+  }
+}

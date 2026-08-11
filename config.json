@@ -1,0 +1,10 @@
+{
+  "bot_token": "8991148894:AAEVNWEK_3H0B0V5IBKVaS1-TtV_e7TUTfQ",
+  "default_threshold": 0.01,
+  "default_duration_seconds": 15,
+  "default_cooldown_seconds": 30,
+  "default_interval_seconds": 0.5,
+  "allowed_chat_ids": [],
+  "admin_chat_ids": [],
+  "max_watchers_per_user": 8
+}

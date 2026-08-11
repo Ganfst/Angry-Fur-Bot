@@ -1,0 +1,21 @@
+# Nucleo (necesario para todo)
+numpy                       # nivel RMS y pico de cada bloque de audio
+requests                    # envio de alertas por la API HTTP de Telegram
+soundcard                   # captura de microfonos y salida (WASAPI loopback)
+
+# Vigilancia de apps concretas (Windows Core Audio)
+pycaw                       # sesiones de audio por proceso
+comtypes                    # interfaces COM que usa pycaw
+psutil                      # lista de procesos abiertos para el selector
+
+# Bot de Telegram (bot.py)
+python-telegram-bot>=20,<21
+
+# Panel de escritorio (gui.py): tkinter viene con Python.
+# pystray + Pillow solo hacen falta para minimizar a la bandeja del sistema;
+# sin ellos la GUI funciona igual, solo sin ese boton.
+pystray
+Pillow
+
+# Empaquetado opcional a .exe (pyinstaller bot.spec / gui.spec)
+# pyinstaller

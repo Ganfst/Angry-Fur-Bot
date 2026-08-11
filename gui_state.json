@@ -1,0 +1,24 @@
+{
+  "speaker:Ouput for shoutcast (High Definition Audio Device)": {
+    "threshold": 0.01,
+    "duration": 15.0,
+    "enabled": true
+  },
+  "_app": {
+    "cooldown": 30.0,
+    "interval": 0.5,
+    "notify_recovery": true,
+    "close_to_tray": false,
+    "autostart": false
+  },
+  "speaker:BT Headphones (picun G2)": {
+    "threshold": 0.05,
+    "duration": 15.0,
+    "enabled": true
+  },
+  "app:steam.exe": {
+    "threshold": 0.01,
+    "duration": 15.0,
+    "enabled": true
+  }
+}

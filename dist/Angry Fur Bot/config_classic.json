@@ -1,0 +1,23 @@
+{
+  "telegram": {
+    "bot_token": "8991148894:AAEVNWEK_3H0B0V5IBKVaS1-TtV_e7TUTfQ",
+    "chat_id": "5075087755",
+    "cooldown_seconds": 30.0
+  },
+  "monitor_microphone": {
+    "enabled": true,
+    "device_name_contains": "Microphone",
+    "samplerate": 44100,
+    "blocksize": 2048,
+    "silence_threshold": 0.01,
+    "silence_duration_seconds": 15
+  },
+  "monitor_speaker": {
+    "enabled": true,
+    "device_name_contains": "Speakers",
+    "samplerate": 44100,
+    "blocksize": 2048,
+    "silence_threshold": 0.01,
+    "silence_duration_seconds": 15
+  }
+}
